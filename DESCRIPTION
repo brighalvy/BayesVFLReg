@@ -24,6 +24,7 @@ Imports:
     extraDistr,
     invgamma,
     MASS,
+    mclust,
     Rcpp,
     RcppArmadillo,
     TruncExpFam
