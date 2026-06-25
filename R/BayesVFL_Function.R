@@ -4,13 +4,13 @@
 #'
 #' @param Phi_Y An m x Q matrix containing the globally sketched response matrix. (elements must be numeric)
 #' @param Phi_X A m x P matrix containing the globally sketched covariate matrix. (elements must be numeric)
-#' @param n_samps Number of desired post burn-in samples.
+#' @param nsamps Number of desired post burn-in samples.
 #' @param burnin Number of burn-in iterations, default 500
 #'
 #' @return A named list containing the following components:
-#' * **B**: An array of the posterior samples for the B matrix (n_samps x P x Q).
-#' * **A**: An array of the posterior samples for the A matrix (n_samps x Q x Q).
-#' * **sigma**: A matrix of posterior samples of sigma^2 (n_samps x Q).
+#' * **B**: An array of the posterior samples for the B matrix (nsamps x P x Q).
+#' * **A**: An array of the posterior samples for the A matrix (nsamps x Q x Q).
+#' * **sigma**: A matrix of posterior samples of sigma^2 (nsamps x Q).
 #' * **lambda**: The posterior local shrinkage parameters.
 #' * **tau**: The posterior global shrinkage parameters.
 #'
