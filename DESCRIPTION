@@ -1,11 +1,11 @@
 Package: BayesVFLReg
 Type: Package
-Title: What the Package Does (Title Case)
+Title: A Bayesian Vertical Federated Learning Framework for Multivariate Reduced-Rank High-Dimensional Regression
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Brigham", "Halverson",
+      email = "brighalvy@tamu.edu",
       role = c("aut", "cre")
     )
   )
