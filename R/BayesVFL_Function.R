@@ -1,7 +1,6 @@
 #' Runs MCMC for BayesVFLReg
 #'
-#' @description A longer description explaining what the function does, its
-#' inputs, and what it returns. This text will appear in your package's help documentation.
+#' @description Takes in the globally sketched data and performs the MCMC for the High-Dimensional Sparse Reduced Rank Regression.
 #'
 #' @param Phi_Y An m x Q matrix containing the globally sketched response matrix. (elements must be numeric)
 #' @param Phi_X A m x P matrix containing the globally sketched covariate matrix. (elements must be numeric)
