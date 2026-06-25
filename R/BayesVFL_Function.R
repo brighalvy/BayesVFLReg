@@ -1,4 +1,4 @@
-#' Brief Title of What the Function Does
+#' Runs MCMC for BayesVFLReg
 #'
 #' @description A longer description explaining what the function does, its
 #' inputs, and what it returns. This text will appear in your package's help documentation.
