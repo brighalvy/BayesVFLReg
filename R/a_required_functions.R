@@ -1,3 +1,4 @@
+#' @noRd
 ## Required functions:
 
 ## Draw Sigma function:

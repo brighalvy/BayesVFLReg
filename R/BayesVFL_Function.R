@@ -15,6 +15,8 @@
 #' * **tau**: The posterior global shrinkage parameters.
 #'
 #' @export
+#' @import Rcpp
+#' @import RcppArmadillo
 BayesVFLReg <- function(Phi_Y, Phi_X, nsamps,
                   burnin = 500){
   ## Add checks:

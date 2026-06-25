@@ -9,8 +9,7 @@ Authors@R: c(
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Implements a Bayesian Vector Functional Linear Regression model using an optimized Gibbs sampler framework.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
@@ -23,7 +22,6 @@ LinkingTo:
 Imports: 
     extraDistr,
     invgamma,
-    MASS,
     mclust,
     Rcpp,
     RcppArmadillo,
