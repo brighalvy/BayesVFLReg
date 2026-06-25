@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-[![R-CMD-check](https://github.com/brighalvy/BayesVFLReg/workflows/R-CMD-check/badge.svg)](https://github.com/brighalvy/BayesVFLReg/actions)
+(https://github.com/brighalvy/BayesVFLReg/actions)
 `BayesVFLReg` is an R package for implementing Bayesian Vector Functional Linear Regression. The package utilizes a highly optimized Gibbs sampler written in C++ via `Rcpp` and `RcppArmadillo` to efficiently sample from high-dimensional posterior distributions with shrinkage priors.
 
 ## Features
