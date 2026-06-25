@@ -16,3 +16,14 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/brighalvy/BayesVFLReg
 BugReports: https://github.com/brighalvy/BayesVFLReg/issues
+RoxygenNote: 7.3.3
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Imports: 
+    extraDistr,
+    invgamma,
+    MASS,
+    Rcpp,
+    RcppArmadillo,
+    TruncExpFam
